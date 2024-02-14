@@ -1,0 +1,80 @@
+﻿Welcome to P1: SCE Simulator!
+Team Members and their online portfolio: 
+Scarlett Chen: https://scarlett21chen.github.io/
+Ting Lu: https://tinglu12.github.io/
+
+
+Overview:
+This project is a Virtual Reality (VR) simulation that recreates the life of a Computer Science and Engineering (CSE) student at the University of Michigan (UMich). Utilizing the advanced capabilities of Unreal Engine 5, our team has developed an immersive and interactive VR environment where users can experience the campus life unique to UMich CSE students while learning how to become a better student.
+
+
+Custom Objects: 
+Shower Room
+For the custom object, we've introduced a unique interactive environment: the Shower Room. This custom object is designed to enhance the realism of the student experience, particularly after long nights of studying and coding at the university. The Shower Room is equipped with various elements to mimic a real-life showering experience. After the user stands in the shower for long enough(where a progress bar will show how much more they have to stand), they will be cleaned and will emit particles around them. Once they are cleaned, they are able to interact with one of the NPCs who will give them a gift.
+
+
+NPC Quest Givers
+Several NPCs have been adjusted to give tasks instead of just repeating plain dialogue. Two specifically have been added. One NPC will ask the user to take a shower. Once the user has completed the task, the NPC will give the user a fish as a Gift. The second NPC will ask the user to take out the trash, and will provide the number of trash items on the map. Once completed, the user will receive a toy from the NPC. Dialogue will change depending on whether the user has completed the NPC’s respective tasks. Completing a task will play a sound effect.
+
+
+Big Cat
+The Big Cat is not just a normal NPC but will ask the user to complete several tasks by talking to people, a very important thing to do as a CSE major. The Big Cat will take in several gift objects which will cause the Big Cat to change dialogue, and eventually give the player a most valuable prize: a job.
+
+
+Gifts
+After completing a task for certain NPCs, they will give the user a gift which can be given to the Big Cat. They range from food to a cat toy. Depending on the gift, the Big Cat will change Dialogue as well.
+
+
+Stinky Trash
+To build upon the trash items, we added gaseous fumes that emit from the objects to indicate to the user as to which items are considered trash. 
+
+
+Custom Interaction:
+In the custom interaction part, we make the simulation more story-like and realistic. The adventure begins with a welcoming NPC who assigns the first task: taking a refreshing shower, symbolizing self-care. The player can interact with the shower handler to start the water. We've also added realistic sound effects of running water in the shower room. As the player engages with the shower, a dialogue window will appear, displaying the progress of the shower. After completing the shower, the player will gain particle effects, showing their cleanliness and will be able to interact with the NPC again to gain new dialogue and a fish. The second NPC will give the next task of cleaning up the room (throwing all the trash out). The NPC will provide the amount of trash objects there are on the map. Trash objects are indicated by the gaseous fumes that emit from them. After throwing out all the trash, the player can talk to the NPC again and will be given a cat toy and new dialogue. With these two items(the fish and toy), the player can proceed to the final interaction which is to give them to the cat. The cat will have different dialogue depending on which gift is given. Once both gifts are given, the cat will provide a job offer to the player! Congratulations for completing the whole day!
+
+
+Technologies Used:
+Our core development platform is Unreal Engine 5.2.1. For programming logic and gameplay mechanics, we utilized UE's Blueprint scripting system. Project management was handled through JIRA, a powerful tool for tracking development progress among team members. Version control was managed using Git, providing our team with a robust framework for tracking changes and collaborating on code. To enrich our virtual environments, we sourced high-quality 3D models and textures from Sketchfab and Quixel. Audio elements were carefully selected from Freesound, a comprehensive database of royalty-free sound effects and music tracks. Testing and optimization of our VR application were conducted using the Quest Pro headset. 
+
+
+Models Used:
+Garbage-can:https://sketchfab.com/3d-models/trash-can-with-animations-garbage-can-animated-d4bed4900def46e7b2f098b0a9ec6209
+Computer:https://sketchfab.com/3d-models/personal-computer-aa398650fe6e4baa8771c71266d842f4
+Paper:https://sketchfab.com/3d-models/scrunched-paper-333f89070a2f4d0d8b0b30ebfe67cd06
+Chip:https://sketchfab.com/3d-models/chips-bac5fb96ec4345348ad530b4289c648e
+Container:https://sketchfab.com/3d-models/plastic-clamshell-container-c552f013b96643fc8f9db08f9305b2f8
+Monitor: https://sketchfab.com/3d-models/monitor-221b58bcbddf4fa9892d63797034fb9c
+Fire-alarm: https://sketchfab.com/3d-models/fire-alarm-252236660fb647c4885d25e2b629386f
+Whiteboard: https://sketchfab.com/3d-models/whiteboard-eff6059c0f654aa3a5ba5e10eb59591e
+Printer: https://sketchfab.com/3d-models/3d-printer-prop-4defc1f72f9e45e4b2f3e86a83f194a3
+Robot - https://sketchfab.com/3d-models/robot-2020-c0dadae4d1884bf48615f1ee301fe7e6
+Cat-https://sketchfab.com/3d-models/maxwell-the-cat-dingus-2ca7f3c1957847d6a145fc35de9046b0
+capybara-https://sketchfab.com/3d-models/samurai-capybara-6adf1904b9e744ff9381583336377080
+missing cat - https://www.pinterest.com/pin/589056826245362381/
+spiderman - https://sketchfab.com/3d-models/the-amazing-spiderman-2-andrew-garfield-d32b039bbcc24d5198023c897d12e1a9
+carpet - https://quixel.com/megascans/home?search=old&search=carpet&assetId=vddldbw
+desk - https://sketchfab.com/3d-models/computer-desk-d71521813a4541188cf2d2aab3917269
+shower - https://sketchfab.com/3d-models/shower-b45cd45001d24abea8505ee1fc1e563f
+Shower handle - https://sketchfab.com/3d-models/shower-handle-a25800872480497ba127b03a085db1ae
+towels: https://sketchfab.com/3d-models/towel-d33491d3eaf845a78028afa842bf9970
+sink: https://sketchfab.com/3d-models/sink-a0caf958dff44640894b5f1ca942e1d5
+shower room table: https://sketchfab.com/3d-models/shower-with-toilet-in-a-bathroom-f1d7eb372f5a4864bcfe0e6015d15efb
+fish: https://sketchfab.com/3d-models/gold-fish-fc655111af5b49bf84722affc3ddba00
+lightswitch : https://sketchfab.com/3d-models/light-switch-808c3de4dd874fc1b67ff15cd2645555
+cat toy: https://sketchfab.com/3d-models/cat-plushie-9adc77036b434348ae049776c50df624
+internship: https://andrenader.substack.com/p/every-accepted-job-offer-letter-on
+kirby: https://sketchfab.com/3d-models/kirby-fd2774047b0f4be49540a1ebd5cf709d
+glass-door : https://sketchfab.com/3d-models/glass-door-221-af99a00aa6524334869e3f11bf9d6991
+door: https://sketchfab.com/3d-models/door-d23ec435af454cf985292778dbd65c9e
+curtain: https://sketchfab.com/3d-models/curtain-wet-cloth-47ded0c610824037aa498c540216a833
+
+
+background sound: https://freesound.org/people/USBMED_Ambiences_Sound_Library/sounds/635377/
+fire alarm: https://freesound.org/people/klankbeeld/sounds/531855/
+light switch: https://freesound.org/people/cbakos/sounds/50635/
+throw trash: https://freesound.org/people/klankbeeld/sounds/587170/
+printer: https://freesound.org/people/engreitz/sounds/78946/
+light electricity: https://freesound.org/people/ZHR%C3%98/sounds/513269/
+shower: https://freesound.org/people/15GPanskaSupsakPatrik/sounds/461214/
+level up : https://freesound.org/people/rhodesmas/sounds/320655/
+pick up : https://freesound.org/people/Davidsraba/sounds/347172/
