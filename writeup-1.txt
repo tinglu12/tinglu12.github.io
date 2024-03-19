@@ -1,0 +1,93 @@
+﻿Welcome to P2: A2-GO
+Team Members and their online portfolio: 
+Scarlett Chen: https://scarlett21chen.github.io/
+Ting Lu: https://tinglu12.github.io/
+
+
+Overview:
+A2-GO is a project that was inspired by games like Pokemon Go to create an augmented reality video game for mobile devices. 
+In this game, the player is tasked with planting seeds in order to grow trees, allowing them to earn in-game money. 
+However, while playing the game, their trees can suddenly be attacked by squirrels which they must defeat. 
+Along with this, they can use their money to buy more seeds, and walk to different landmarks to unlock new seeds. 
+Overall, this game provides an interactive experience while requiring a physical aspect to it.  
+
+
+Custom Mechanic/Feature: 
+
+
+Summary:
+Our custom feature for our project is to make a rock paper scissor system with elements. 
+Like Pokemon, certain elements beat others, with the most basic ones being that fire beats grass, grass beats water, and water beats fire. 
+In our game, we created a similar system by creating new squirrels and acorns.
+
+
+Custom Squirrels:
+We’ve implemented three new squirrels: a water squirrel, a fire squirrel, and a grass squirrel. 
+Each squirrel will have a custom feature. The water squirrel will surround itself with water periodically, making any acorn thrown at it useless. 
+The fire squirrel will shoot fire at the player, forcing the player to dodge its attacks. 
+If the player is hit, then the player will lose some money. 
+The grass squirrel will move much faster than the other squirrels in the game, making it difficult to hit it. 
+These new squirrels will be randomly spawned whenever a squirrel spawn is triggered, and the only way to beat these squirrels is with our new custom acorns.
+
+
+Custom Acorns:
+We’ve implemented new acorns that can be bought from the shop inorder to stop our new squirrels: the water acorn, the fire acorn, and the grass acorn. 
+Each acorn is used to stop one of the new squirrels. 
+The water acorn can defeat the fire squirrel, the fire acorn can defeat the grass squirrel, and the grass acorn can defeat the water squirrel. 
+Any other acorns besides the respective acorns above will have no effect on the new squirrels. 
+For example, the water squirrel will not be defeated if it is hit by the water or fire acorn. 
+All new acorns can be used to defeat the regular squirrel. 
+
+
+
+
+
+
+
+
+Technologies Used:
+Our core development platform is Unity 2022.3.17f1. 
+For programming logic and gameplay mechanics, we utilized C#. 
+Project management was handled through JIRA, a powerful tool for tracking development progress among team members. 
+Version control was managed using Git, providing our team with a robust framework for tracking changes and collaborating on code. 
+To enrich our virtual environments, we sourced high-quality 3D models and textures from Sketchfab and the Unity Asset Store. 
+Audio elements were carefully selected from Freesound, a comprehensive database of royalty-free sound effects and music tracks. 
+Testing and optimization of our application were conducted using an Iphone.
+
+
+
+
+Credits
+
+
+Book:https://assetstore.unity.com/?free=true&q=book&orderBy=1
+Pizza:https://assetstore.unity.com/?free=true&q=pizza&orderBy=1
+Painting: https://assetstore.unity.com/?free=true&q=painting&orderBy=1
+Vase:https://assetstore.unity.com/packages/3d/props/interior/free-floral-gold-jar-188685
+film:https://sketchfab.com/3d-models/eumig-film-projector-151d8ee40b244a9b9666822ddeb08557
+tree: https://assetstore.unity.com/packages/3d/vegetation/trees/free-trees-103208
+Squirrel: https://sketchfab.com/3d-models/squirrel-and-acorn-figure-metashape-app-2859a3fdb9a9423aafe0b031af8ffa81
+Acorn: https://sketchfab.com/3d-models/acorn-ee1ab5aa39d74b749ab562be02ab6a93#download
+polygon tree: https://assetstore.unity.com/packages/3d/vegetation/trees/polygon-trees-224068
+Wolverine: https://sketchfab.com/3d-models/wolverine-statue-ann-arbor-mi-0ccf44f0587f47bb9a727c9db68d9df1
+Bird: https://sketchfab.com/3d-models/animal-crossing-pierce-f75268190ba14ea9ab7d12ecd1e794b6#download
+
+
+Sound
+Exploration: https://freesound.org/people/Mrthenoronha/sounds/520710/
+Interaction: https://freesound.org/people/EVRetro/sounds/583613/
+Wood Sound: https://freesound.org/people/Mateusz_Chenc/sounds/512219/
+Destroy Squirrel: https://freesound.org/people/henriquedesa/sounds/251733/
+Battle Theme: https://freesound.org/people/kbrecordzz/sounds/589151/
+Throw Acorn: https://freesound.org/people/copyc4t/sounds/482735/
+
+
+Pictures:
+palm: https://ecocation.org/how-to-grow-palm-trees-from-seeds/
+oak:https://newengland.com/living/gardening/how-to-grow-oak-trees-from-acorns/
+fir:https://www.ruralsprout.com/grow-a-christmas-tree-from-seed/
+nypd: https://newyorkpizzaannarbor.com/
+state theatre: https://www.google.com/maps/contrib/115781748051170003191/photos/@40.2529933,-102.8814409,5z/data=!4m3!8m2!3m1!1e1?entry=ttu
+national history: https://www.annarbor.org/listing/u-m-museum-of-natural-history/1328/
+poplar: https://www.etsy.com/listing/1408467848/5x-dried-natural-tulip-poplar-seedpods
+weeping: https://www.dreamstime.com/royalty-free-stock-photo-weeping-willow-seeds-image12931685
